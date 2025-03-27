@@ -1,12 +1,10 @@
-# Library Management System using SQL Project --P2
+# Library Management System using SQL 
 
 ## Project Overview
 
 **Project Title**: Library Management System  
-**Level**: Intermediate  
-**Database**: `library_db`
 
-This project demonstrates the implementation of a Library Management System using SQL. It includes creating and managing tables, performing CRUD operations, and executing advanced SQL queries. The goal is to showcase skills in database design, manipulation, and querying.
+This project demonstrates the implementation of a Library Management System using SQL. It includes creating and managing tables, performing CRUD operations, and executing advanced SQL queries. The goal is to showcase my database design, manipulation, and querying skills.
 
 ![Library_project](https://github.com/najirh/Library-System-Management---P2/blob/main/library.jpg)
 
@@ -20,15 +18,14 @@ This project demonstrates the implementation of a Library Management System usin
 ## Project Structure
 
 ### 1. Database Setup
-![ERD](https://github.com/najirh/Library-System-Management---P2/blob/main/library_erd.png)
+![ERD]([https://github.com/najirh/Library-System-Management---P2/blob/main/library_erd.png](https://github.com/rhea1300/Library_Management_SQL_Project/blob/main/ERD%20diagram%20data%20modelling.png))
 
-- **Database Creation**: Created a database named `library_db`.
+- **Database Creation**: Created a database named `library_project_2`.
 - **Table Creation**: Created tables for branches, employees, members, books, issued status, and return status. Each table includes relevant columns and relationships.
 
 ```sql
 CREATE DATABASE library_db;
 
-DROP TABLE IF EXISTS branch;
 CREATE TABLE branch
 (
             branch_id VARCHAR(10) PRIMARY KEY,
@@ -109,7 +106,7 @@ CREATE TABLE return_status
 
 ```
 
-### 2. CRUD Operations
+### 2. CRUD Operations 
 
 - **Create**: Inserted sample records into the `books` table.
 - **Read**: Retrieved and displayed data from various tables.
